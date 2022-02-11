@@ -96,17 +96,24 @@ let tel3 = new ThirdUser(2, 1);
 tel3.ricarica(30);
 
 /* a questo punto istanzierei tre utenti utilizzando la stessa classe ma come richiesta creo tre classi */
-
+console.log("---PRIMO UTENTE---")
 console.log("Valore della carica disponibile"+tel1.numero404());
 console.log("Numero delle chiamate"+tel1.getNumeroChiamate());
 console.log("dopo l'azzeramento delle chiamate:");
 tel1.azzeraChiamate();
+console.log(" ")
+console.log("---SECONDO UTENTE---")
+console.log(" ")
 console.log("Numero delle chiamate utente 2"+tel2.getNumeroChiamate());
 console.log("Valore della carica disponibile"+tel2.numero404());
 console.log("Numero delle chiamate"+tel2.getNumeroChiamate());
 console.log("dopo l'azzeramento delle chiamate:");
 tel2.azzeraChiamate();
-console.log("Numero delle chiamate utente 3"+tel3.getNumeroChiamate());
+console.log(" ")
+console.log("---TERZO UTENTE---")
+console.log(" ")
+
+console.log("Numero delle chiamate"+tel3.getNumeroChiamate());
 console.log("Valore della carica disponibile"+tel3.numero404());
 console.log("Numero delle chiamate"+tel3.getNumeroChiamate());
 console.log("dopo l'azzeramento delle chiamate:");
