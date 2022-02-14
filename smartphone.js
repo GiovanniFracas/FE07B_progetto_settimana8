@@ -73,10 +73,13 @@ var ThirdUser = /** @class */ (function () {
 //implementazione della classe
 var tel1 = new FirstUser(2, 1);
 tel1.ricarica(10);
+tel1.chiamata(10);
 var tel2 = new Seconduser(2, 1);
 tel2.ricarica(20);
+tel2.chiamata(10);
 var tel3 = new ThirdUser(2, 1);
 tel3.ricarica(30);
+tel3.chiamata(10);
 /* a questo punto istanzierei tre utenti utilizzando la stessa classe ma come richiesta creo tre classi */
 console.log("---PRIMO UTENTE---");
 console.log("Valore della carica disponibile" + tel1.numero404());
